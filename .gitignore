@@ -11,6 +11,9 @@
 *.sln.docstates
 .env
 .venv-begin2/
+.chainlit
+.venv
+*.DS_Store
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -400,3 +403,9 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Ignore all files in chroma_db directory
+05-agentic-rag/code_samples/chroma_db/
+
+# Ignore PNG files in the specified directory
+02-explore-agentic-frameworks/code_samples/*.png
